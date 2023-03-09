@@ -1,6 +1,5 @@
 //01)
 
-/*
 let indice = 13;
 soma = 0;
 k = 0;
@@ -11,14 +10,14 @@ while (k < indice) {
 }
 
 console.log(soma); 
-*/
+
 
 //----------------------------------------------------------------------------------------------------------//
 
 
 //02)
 
-/*
+
 function fibonacci(n) {
     let m = 0, t = 1, temp;
     
@@ -50,13 +49,13 @@ function fibonacci(n) {
   } else {
     console.log(`${num} não pertence à sequência de Fibonacci.`);
   }
-  */
+  
 //----------------------------------------------------------------------------------------------------------//
 
 
 //03)
 
-/*
+
 const dadosFaturamento = [{
         "dia": 1,
         "valor": 22174.1664
@@ -202,13 +201,13 @@ const mediaMensal = diasComFaturamento.reduce((total, dia) => {
 }, 0) / diasComFaturamento;
 
 console.log('Dias do mês que mais tiveram faturamento: ', diasComFaturamento)
-*/
+
 
 //----------------------------------------------------------------------------------------------------------//
 
 
 //04)
-/*
+
 const faturamentoSP = 67836.43;
 const faturamentoRJ = 36678.66;
 const faturamentoMG = 29229.88;
@@ -231,7 +230,7 @@ console.log(`Percentual de representação de RJ: ${percentualRJ.toFixed(2)}%`);
 console.log(`Percentual de representação de MG: ${percentualMG.toFixed(2)}%`);
 console.log(`Percentual de representação de ES: ${percentualES.toFixed(2)}%`);
 console.log(`Percentual de representação de Outros: ${percentualOutros.toFixed(2)}%`);
-*/
+
 //----------------------------------------------------------------------------------------------------------//
 
 //05)
